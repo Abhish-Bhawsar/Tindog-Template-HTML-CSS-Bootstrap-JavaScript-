@@ -1,0 +1,199 @@
+
+
+.container-fluid
+{
+  padding: 7% 15%;
+}
+
+/* Sections */
+.colored-section{
+  background-color: #ff4c68;
+  color: white;
+}
+.white-section
+{
+  background-color: white;
+  color: black;
+}
+
+
+.navbar-brand {
+  font-size: 2.5rem;
+  color: white;
+  font-family: 'Ubuntu';
+  margin: 0;
+}
+
+ /* Title Section */
+
+#title {
+
+  text-align: left;
+}
+
+#title .container-fluid
+{
+  padding: 3% 15% 7%;
+}
+
+
+.title-image {
+  transform: rotate(30deg);
+  width: 50%;
+  position: absolute;
+  right: 30%;
+}
+
+@media (max-width:1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    transform: rotate(0deg);
+    position: static;
+    margin: 15% 0;
+  }
+}
+
+.nav-item {
+  font-size: 1.5rem;
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat';
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+/*Headings*/
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+  font-family: 'Montserrat';
+}
+
+.big-headings {
+  font-size: 4rem;
+  margin-bottom: 10%;
+  color: white;
+  line-height: 1.5;
+}
+
+
+#features {
+  position: relative;
+  z-index: 1;
+}
+
+.points_heading {
+  font-family: 'Montserrat';
+  color: black;
+  text-align: center;
+}
+
+.points_desc {
+  font-family: 'Ubuntu';
+  color: #8f8f8f;
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+p {
+  font-family: 'Ubuntu';
+  color: #8f8f8f;
+  font-size: 1.3rem;
+}
+
+.points_logo {
+  margin: 5%;
+  color: #ef8172;
+}
+
+.points_logo:hover {
+  color: #ff4c68;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+/*testimonils box*/
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+}
+
+.testimonials-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.testimonils-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/*Press Section*/
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%
+}
+
+.press-images {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/*Pricing*/
+/* .button-size
+{
+
+} */
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+}
+
+/*Call to Action*/
+#cta {
+  text-align: center;
+  padding: 8%;
+}
+
+.ctah1 {
+  font-family: 'Montserrat';
+  font-weight: bold;
+  font-size: 4rem;
+  margin-bottom: 5%;
+  padding: 0 12% 0 12%;
+  color: white;
+  line-height: 1.5;
+}
+
+#footer {
+  text-align: center;
+}
+
+.social-logos {
+  margin: 2%;
+  font-size: 30px;
+} 
